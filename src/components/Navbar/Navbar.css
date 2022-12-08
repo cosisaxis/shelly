@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 9999;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.navbar-menu{
+    display: flex;
+}
+.navbar-menu li{
+    padding: 0 15px;
+}
+.navbar-menu .nav-item{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s easy;
+}
+.navbar-menu .nav-item:hover{
+    color: red;
+}
+.burger{
+    display: none;
+}
