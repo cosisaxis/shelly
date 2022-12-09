@@ -17,3 +17,25 @@ ul{
 a{
   text-decoration: none;
 }
+
+.container{
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.9;
+}
