@@ -17,33 +17,33 @@ const Navbar = () => {
             <img src={logo} alt="logo" width={100} />
           </Link>
           <ul className={burgerClick? "navbar-menu active" : "navbar-menu"}>
-            <li>
+            <li onClick={burgerClicking}>
               <NavLink className="nav-item" to="/">
                 Home
               </NavLink>
             </li>
-            <li>
+            <li onClick={burgerClicking}>
               <NavLink className="nav-item" to="/about">
                 About
               </NavLink>
             </li>
-            <li>
+            <li onClick={burgerClicking}>
               <NavLink className="nav-item" to="/menu">
                 Menu
               </NavLink>
             </li>
-            <li>
+            <li onClick={burgerClicking}>
               <NavLink className="nav-item" to="/delivery">
                 Delivery
               </NavLink>
             </li>
-            <li>
+            <li onClick={burgerClicking}>
               <NavLink className="nav-item" to="/contact">
                 Contact
               </NavLink>
             </li>
             <li>
-              <button>Contact us</button>
+              <button onClick={burgerClicking}>Contact us</button>
             </li>
           </ul>
           <div className="burger" onClick={burgerClicking}>
