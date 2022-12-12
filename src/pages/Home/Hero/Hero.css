@@ -20,8 +20,3 @@
     color: red;
 }
 
-@media screen and (max-width: 768px) {
-    .hero-header{
-        font-size: 45px;
-    }
-}
