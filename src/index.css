@@ -94,6 +94,7 @@ blockquote {
 
 .heading-primary span {
   font-weight: 700;
+  color: red;
 }
 
 .heading-secondary {
@@ -129,7 +130,7 @@ blockquote {
 }
 
 .special-word {
-  color: var(--color-primary);
+  color: red;
   font-weight: 700;
 }
 
