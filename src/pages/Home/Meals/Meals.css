@@ -1,0 +1,75 @@
+.meal-container{
+    display: flex;
+    gap: 5%;
+}
+
+.meal-carousel{
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.meal-carousel img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+    color: red !important;
+    cursor: pointer;
+}
+
+.meal-content{
+    width: 30%;
+}
+
+.meal-content p{
+    padding: 20px 0;
+}
+
+.meal-card-container{
+    display: flex;
+    gap: 5%;
+    padding-top: 50px;
+}
+.meal-card{
+    width: 30%;
+}
+.meal-card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.meal-card-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.meal-card-content p{
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .meal-container{
+        flex-direction: column;
+    }
+    .meal-carousel{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .meal-content{
+        width: 100%;
+    }
+    .meal-card-container{
+        flex-direction: column;
+    }
+    .meal-card{
+        width: 100%;
+    }
+    .meal-card-left{
+        margin-bottom: 20px;
+    }
+}
