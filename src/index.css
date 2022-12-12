@@ -61,6 +61,6 @@ color: white;
 
 @media screen and (max-width: 768px) {
   .hero-header{
-      font-size: 35px;
+      font-size: 30px;
   }
 }
