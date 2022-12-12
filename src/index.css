@@ -19,7 +19,7 @@ a{
 }
 
 .container{
-  max-width: 1310px;
+  max-width: 1349px;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -38,4 +38,23 @@ button{
 
 button:hover{
   opacity: 0.9;
+}
+.hero-header{
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding-bottom: 10px;
+}
+
+.hero-header span{
+  font-weight: bold;
+}
+
+.hero-number{
+  color: red;
+}
+.hero-text{
+color: white;
 }

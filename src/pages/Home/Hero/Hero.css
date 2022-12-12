@@ -1,0 +1,27 @@
+.hero-image{
+    height: 100vh;
+    background-image: url('../../../assets/chicken3.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+
+.hero-content p{
+    font-size: 20px;
+}
+.hero-name{
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-header{
+        font-size: 45px;
+    }
+}
