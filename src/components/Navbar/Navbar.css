@@ -29,6 +29,7 @@
 }
 .burger{
     display: none;
+    
 }
 
 
@@ -36,6 +37,7 @@
     .burger {
         display: block;
         cursor: pointer;
+        color: white;
     }
 
     .navbar-menu {

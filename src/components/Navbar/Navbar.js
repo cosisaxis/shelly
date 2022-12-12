@@ -48,9 +48,9 @@ const Navbar = () => {
           </ul>
           <div className="burger" onClick={burgerClicking}>
             {burgerClick ? (
-              <FaTimes size={20} style={{ color: "#000" }} />
+              <FaTimes size={20} style={{ color: "#fff" }} />
             ) : (
-              <FaBars size={20} style={{ color: "000" }} />
+              <FaBars size={20} style={{ color: "#fff" }} />
             )}
           </div>
         </div>
