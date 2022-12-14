@@ -1,0 +1,17 @@
+.dish-image{
+    background-image: url('../../../assets/dish.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+
+
+}
+
+.dish-content{
+    position: absolute;
+    bottom: 5%;
+    padding: 10px;
+    background-color: var(--color-primary);
+}
