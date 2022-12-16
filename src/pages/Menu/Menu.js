@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../../components/HeroImage/HeroImage'
 import background from "../../assets/background.jpg"
+import TodaysMenu from './TodaysMenu/TodaysMenu'
 
 const Menu = () => {
   return (
@@ -12,6 +13,8 @@ const Menu = () => {
     
     
       />
+
+      <TodaysMenu />
     </div>
   )
 }
