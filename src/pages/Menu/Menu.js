@@ -5,6 +5,7 @@ import TodaysMenu from "./TodaysMenu/TodaysMenu";
 import Friday from "./Friday/Friday";
 import Saturday from "./Saturday/Saturday";
 import Sunday from "./Sunday/Sunday";
+import Beverages from "./Beverages/Beverages";
 
 const Menu = () => {
   return (
@@ -18,6 +19,7 @@ const Menu = () => {
       <Friday />
       <Saturday />
       <Sunday />
+      <Beverages />
     </div>
   );
 };
