@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Saturday.css"
 import MenuListItems from '../../../components/MenuListItems/MenuListItems'
+import "./Sunday.css"
 
 const menuDataLeft = [
     {
@@ -38,36 +38,37 @@ const menuDataLeft = [
     },
   ];
 
-const Saturday = () => {
+
+const Sunday = () => {
   return (
-    <div className='section'>
-        <div className="container saturday">
-      <h1 className="heading-secondary">
-        <span>Saturday</span>
-      </h1>
-      <div className="grid-container">
-        <div>
-          {menuDataLeft.map((data, i) => (
-            <MenuListItems
-              title={data.title}
-              description={data.description}
-              price={data.price}
-            />
-          ))}
-        </div>
-        <div>
-          {menuDataRight.map((data, i) => (
-            <MenuListItems
-              title={data.title}
-              description={data.description}
-              price={data.price}
-            />
-          ))}
-        </div>
-      </div>
+    <div><div className='section'>
+    <div className="container saturday">
+  <h1 className="heading-secondary">
+    <span>Sunday</span>
+  </h1>
+  <div className="grid-container">
+    <div>
+      {menuDataLeft.map((data, i) => (
+        <MenuListItems
+          title={data.title}
+          description={data.description}
+          price={data.price}
+        />
+      ))}
     </div>
+    <div>
+      {menuDataRight.map((data, i) => (
+        <MenuListItems
+          title={data.title}
+          description={data.description}
+          price={data.price}
+        />
+      ))}
     </div>
+  </div>
+</div>
+</div></div>
   )
 }
 
-export default Saturday
+export default Sunday

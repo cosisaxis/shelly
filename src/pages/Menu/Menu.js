@@ -4,6 +4,7 @@ import background from "../../assets/background.jpg";
 import TodaysMenu from "./TodaysMenu/TodaysMenu";
 import Friday from "./Friday/Friday";
 import Saturday from "./Saturday/Saturday";
+import Sunday from "./Sunday/Sunday";
 
 const Menu = () => {
   return (
@@ -16,6 +17,7 @@ const Menu = () => {
       <TodaysMenu />
       <Friday />
       <Saturday />
+      <Sunday />
     </div>
   );
 };
