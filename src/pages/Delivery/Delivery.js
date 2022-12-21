@@ -9,8 +9,8 @@ const Delivery = () => {
     <div>
         <HeroImage
         bgImage={background}
-        heading={["Menu"]}
-        text={"Take a look at our incredible menu"}
+        heading={["Delivery"]}
+        text={"Our delivery options brought to you"}
       />
       <DeliveryInfo />
     </div>
