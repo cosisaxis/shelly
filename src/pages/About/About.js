@@ -3,6 +3,7 @@ import HeroImage from "../../components/HeroImage/HeroImage";
 import background from "../../assets/background2.jpg";
 import AboutInfo from "./AboutInfo/AboutInfo";
 import ResData from "./ResData/ResData";
+import FoodGallery from "./FoodGallery/FoodGallery";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
       />
       <AboutInfo />
       <ResData />
+      {/* <FoodGallery /> */}
     </div>
   );
 };
