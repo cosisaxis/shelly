@@ -6,34 +6,34 @@ const menuDataLeft = [
     {
       title: "jerk pork",
       description: "lovely jamaican jerk pork",
-      price: "21",
+      price: "1000",
     },
     {
-      title: "jerk pork",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "stew peas",
+      description: "lovely jamaican stew peas",
+      price: "1500",
     },
     {
-      title: "jerk pork",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "run dung",
+      description: "lovely jamaican run dung",
+      price: "1000",
     },
   ];
   
   const menuDataRight = [
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "cow foot",
+      description: "lovely jamaican cow foot",
+      price: "2100",
     },
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "oxtail",
+      description: "lovely jamaican oxtail",
+      price: "2100",
     },
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
+      title: "barbeque chicken",
+      description: "lovely jamaican bbw",
       price: "21",
     },
   ];
