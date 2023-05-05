@@ -15,6 +15,10 @@
 .navbar-menu{
     display: flex;
 }
+
+.navbar button{
+    margin-bottom: 10px;
+}
 .navbar-menu li{
     padding: 0 15px;
 }

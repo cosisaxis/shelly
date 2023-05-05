@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.png";
+import CallButton from "../CallButton/CallButton";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -43,7 +44,9 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <button onClick={burgerClicking}>Contact us</button>
+              {/* <button onClick={burgerClicking}>Contact us</button> */}
+              <CallButton phoneNumber="8768672788" />
+
             </li>
           </ul>
           <div className="burger" onClick={burgerClicking}>

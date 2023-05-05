@@ -39,7 +39,7 @@ const Meals = () => {
               <Slider {...settings}>
                 {dishs.map((dish) => (
                   <div key={dish.id}>
-                    <img src={dish.url} alt="carousel-pic" />
+                    <img className="dishes" src={dish.url} alt="carousel-pic" />
                   </div>
                 ))}
               </Slider>
