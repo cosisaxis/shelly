@@ -4,37 +4,37 @@ import MenuListItems from "../../../components/MenuListItems/MenuListItems";
 
 const menuDataLeft = [
   {
-    title: "jerk pork",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "fried fish",
+    description: "lovely jamaican fried fish",
+    price: "1500",
   },
   {
-    title: "jerk pork",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "steam fish",
+    description: "lovely jamaican steam fish",
+    price: "2500",
   },
   {
-    title: "jerk pork",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "fish kebabs",
+    description: "lovely jamaican fish kebabs",
+    price: "1500",
   },
 ];
 
 const menuDataRight = [
   {
-    title: "fried chicken",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "ackee and saltfish",
+    description: "lovely jamaican ackee and saltfish",
+    price: "1000",
   },
   {
-    title: "fried chicken",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "roast fish",
+    description: "lovely jamaican roast fish",
+    price: "1400",
   },
   {
-    title: "fried chicken",
-    description: "lovely jamaican jerk pork",
-    price: "21",
+    title: "fish soup",
+    description: "lovely jamaican fish soup",
+    price: "500",
   },
 ];
 

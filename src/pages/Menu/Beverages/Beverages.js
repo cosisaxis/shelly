@@ -7,32 +7,32 @@ const menuDataRight = [
     {
       title: "Mango",
       description: "Delicious mango juice",
-      price: "21",
+      price: "300",
     },
     {
       title: "Pine",
       description: "lovely jamaican pine juice",
-      price: "21",
+      price: "300",
     },
     {
       title: "Guava",
       description: "lovely jamaican guava juice",
-      price: "21",
+      price: "350",
     },
     {
       title: "Fruit",
       description: "lovely jamaican fruit juice",
-      price: "21",
+      price: "300",
     },
     {
       title: "Banana",
       description: "lovely jamaican banana juice",
-      price: "21",
+      price: "350",
     },
     {
       title: "Grape",
       description: "lovely jamaican grape juice",
-      price: "21",
+      price: "300",
     },
   ];
 
