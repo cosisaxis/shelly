@@ -6,15 +6,15 @@ import image2 from "../../../assets/img1.jpg";
 
 const menuData = [
     {
-      title: "Sesame crusted scotch fillet",
+      title: "Steam fish",
       description: "with honeyed Pedro Ximenez sauce and potato cake",
-      price: "7.50",
+      price: "2500",
       img: image1,
     },
     {
       title: "Roast Rack of Lamb",
       description: "with herb crust and fruity mesclun salad and straw potato",
-      price: "7.50",
+      price: "2000",
       img: image2,
     },
   ];

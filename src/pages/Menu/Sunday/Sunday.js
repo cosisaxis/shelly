@@ -4,37 +4,37 @@ import "./Sunday.css"
 
 const menuDataLeft = [
     {
-      title: "jerk pork",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "stew chicken",
+      description: "lovely jamaican stew chicken",
+      price: "1000",
     },
     {
-      title: "jerk pork",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "stew beef",
+      description: "lovely jamaican stew beef",
+      price: "1200",
     },
     {
-      title: "jerk pork",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "pot roast",
+      description: "lovely jamaican pot roast",
+      price: "1500",
     },
   ];
   
   const menuDataRight = [
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "steak",
+      description: "lovely jamaican steak",
+      price: "2500",
     },
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "curry chicken",
+      description: "lovely jamaican curry chicken",
+      price: "1000",
     },
     {
-      title: "fried chicken",
-      description: "lovely jamaican jerk pork",
-      price: "21",
+      title: "turkey neck",
+      description: "lovely jamaican turkey neck",
+      price: "1000",
     },
   ];
 
