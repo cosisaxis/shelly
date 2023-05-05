@@ -13,7 +13,7 @@ import Slider from "react-slick";
 
 const Meals = () => {
   const [dishs, setDishs] = useState([
-    { id: 1, url: image1 },
+    // { id: 1, url: image1 },
     { id: 2, url: image2 },
     // { id: 3, url: image3 },
     // { id: 4, url: image4 },
